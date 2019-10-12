@@ -1,7 +1,26 @@
+.middle-area{
+    display:flex;
+    justify-content: space-evenly;
+    height: 900px;
+    border: solid black 1px;
+}
+
 .profile{
     display:flex;
     flex-direction: column;
-    justify-content: stretch;
-    height: 250px;
     border: solid black 1px;
+    width: 300px;
 }
+
+.profile-image{
+    display:flex;
+    height: 200px;
+}
+
+.profile-bio{
+    display:flex;   
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+}
+
